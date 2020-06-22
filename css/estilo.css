@@ -1,0 +1,15 @@
+header{
+    width:100%;
+}
+.menu{
+    font-family: 'Roboto', sans-serif;
+}
+nav ol li a{
+    text-decoration: none;
+}
+.menu-servicios{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
