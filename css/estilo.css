@@ -57,3 +57,26 @@ img{
     justify-content: center;
     padding: 30px 0px;
 }
+.negocio {
+    margin: 1%;
+    width: 30%;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.negocio img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    opacity: 0.6;
+}
+.negocio-container {
+    margin: 0 40px;
+    margin-top: -50%;
+    background-color: rgba(255,255,255, 0.8);
+    position:relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
