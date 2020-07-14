@@ -1,4 +1,5 @@
-body {
+body, h3{
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 header{
@@ -20,6 +21,11 @@ figure {
 }
 img{
     height: inherit;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .header a {
     color: black;
@@ -57,6 +63,29 @@ img{
     justify-content: center;
     padding: 30px 0px;
 }
+.container {
+    max-width: 1265px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+    padding: 0 0;
+}
+.negocio-container {
+    margin: 0 40px;
+    margin-top: -50%;
+    background-color: rgba(255,255,255, 0.8);
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.negocio-container a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
 .negocio {
     margin: 1%;
     width: 30%;
@@ -70,13 +99,4 @@ img{
     width: inherit;
     height: inherit;
     opacity: 0.6;
-}
-.negocio-container {
-    margin: 0 40px;
-    margin-top: -50%;
-    background-color: rgba(255,255,255, 0.8);
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
 }
